@@ -10,6 +10,7 @@ class Home extends Component {
     render() {
         return (
             <div className="condiv home">
+                <h1 style={{align:"center"}}>Hello Everyone</h1>
                 <img src="https://i.pinimg.com/originals/6a/cc/4f/6acc4f1c53be19a872a0d9d5c46fdade.jpg"  alt="profile" className="profile" />
                 <ReactTypingEffect text={['I am Natthaaphon','I am a Web Developer Bro']} speed={80} eraseDelay={200} className="typingeffect" />
                 <Social />
